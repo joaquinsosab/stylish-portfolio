@@ -42,7 +42,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 29, 128, 159;
+  --bs-primary-rgb: 107, 210, 207;
   --bs-secondary-rgb: 236, 184, 7;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -7668,6 +7668,10 @@ textarea.form-control-lg {
 
 .mb-5 {
   margin-bottom: 3rem !important;
+  margin-top: 3rem !important;
+  font-family: 'Arial', sans-serif;
+  font-weight: normal !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .mb-auto {
@@ -10959,7 +10963,7 @@ html {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("https://img.freepik.com/free-photo/pencil-near-papers-plant-laptop_23-2148037051.jpg?t=st=1731967214~exp=1731970814~hmac=8f74afd18c7ff5575187b19d3cd204a23655a3f6f0052a96fb33ea1b1dbe84a9&w=996");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10982,7 +10986,7 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #C1DCE6;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
@@ -11014,7 +11018,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("https://img.freepik.com/free-photo/pen-near-papers-notepad-smartphone-plant-laptop_23-2148037049.jpg?t=st=1731967359~exp=1731970959~hmac=1f7feadc36398a390dd0f857b263b69c7dbe47638417a74a557162366701fb32&w=996");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11108,3 +11112,4 @@ footer.footer .social-link:hover {
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
+.button-text-color { color: #C9CACC;}
